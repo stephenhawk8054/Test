@@ -61,7 +61,7 @@ def create_gif(s, fps):
     else:
         exit()
 
-# Test 5
+# Test 5 - 6
 s = sys.argv[1]
 fps = sys.argv[2]
 create_gif(s, fps)
