@@ -1,9 +1,11 @@
 import os
-import sys
 import shutil
+import sys
 from pathlib import Path
+
 import humanize
 from tqdm import tqdm
+
 
 def create_gif(s, fps):
     step = input('\nStep? 1-Extract frames / 2-gifski & PTS / 3-APNG > ')
@@ -61,7 +63,7 @@ def create_gif(s, fps):
     else:
         exit()
 
-# Test 9 def
+# Test 9 abc
 s = sys.argv[1]
 fps = sys.argv[2]
 create_gif(s, fps)
