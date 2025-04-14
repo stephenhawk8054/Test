@@ -2,8 +2,8 @@ import os
 import sys
 import shutil
 from pathlib import Path
-import humanize
-from tqdm import tqdm
+# import humanize
+# from tqdm import tqdm
 
 def create_gif(s, fps):
     step = input('\nStep? 1-Extract frames / 2-gifski & PTS / 3-APNG > ')
